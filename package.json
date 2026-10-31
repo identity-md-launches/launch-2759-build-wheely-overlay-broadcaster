@@ -1,0 +1,14 @@
+{
+  "name": "wheely-overlay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Transparent Squeekchain browser sources and a broadcaster control room.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "test": "node --test test/domain.test.mjs test/data.test.mjs"
+  },
+  "engines": { "node": ">=20.11" }
+}
